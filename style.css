@@ -1,0 +1,151 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+.nav
+{
+   overflow: hidden;
+   opacity: 70%;
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+.nav a{
+    float: right;
+    display: block;
+    color: black;
+    text-align:center;
+    padding: 14px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.nav a:hover
+{
+    text-decoration: underline;
+    color: rgb(148, 148, 246);
+    font-size:20px ;
+}
+.nav .left
+{
+    float: left;
+}
+.home
+{
+    display: flex;
+    margin: 10px;
+}
+
+.intro
+{
+    margin-top: 100px; 
+    margin-left: 200px; 
+    padding: 20px;
+    align-items: center;
+}
+.intro p{
+    color: rgb(52, 113, 245);
+    font-size: 50px;
+}
+.heading
+{
+    text-align: center;
+    text-decoration-line: underline;
+}
+.works
+{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.desc
+{
+    font-size: 18px;
+    text-align: center;
+}
+.feature
+{
+  margin: 5px;
+  max-width: 300px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.feature a:hover
+{
+    text-decoration: double;
+    color: rgb(148, 148, 246);
+    font-size:20px ;
+}
+.feature:hover
+{
+  margin: 5px;
+  max-width: 300px;
+  justify-content: space-between;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.intro1 p{
+    font-size: 20px;
+}
+h2
+{
+    text-align: center;
+}
+#foot
+{
+    background-image: url('https://img.freepik.com/premium-vector/city-panorama-with-skyscrapers_110633-233.jpg?size=626&ext=jpg&ga=GA1.1.1975136447.1670159581');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 80%;
+}
+#footer
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: rgb(73, 73, 73);
+}
+.media
+{ 
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+    margin: 50px;
+    display: block;
+    text-align: center;
+}
+#footer a
+{
+    float: right;
+    display: block;
+    color: black;
+    text-align:center;
+    font-size: 17px;
+    text-decoration: none;
+}
+#footer a:hover
+{
+    text-decoration: underline;
+    color: rgb(148, 148, 246);
+    font-size:20px ;
+}
+.intro2
+{
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 150px;
+    /* border: 1px solid black; */
+}
+.img2
+{
+    margin-top: 50px;
+    margin-left: 100px;
+    /* border: 1px solid black; */
+}
+
